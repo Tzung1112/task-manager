@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+.header{
+ 
+display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:70px;
+}
+.task{
+  width: 800px;
+  height: 500px;
+border: 1px solid black;
+}
+.task-header{
+display: flex;
+justify-content: center;
+height: 30px;
+border: 1px solid black;
+}
+.task-body{
+  height: 100%;
+}
+.task-body table{
+  border: 1px solid black;
+  width: 100%;
+  
+}
+.task-body table tr{
+  background-color: rgb(197, 195, 195);
+}
